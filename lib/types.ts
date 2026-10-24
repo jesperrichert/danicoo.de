@@ -6,10 +6,8 @@ export type Customer = {
 }
 export type Customers = Customer[]
 
-export type YoutubeAccount = {
+export type YoutubePlaylist = {
     id: string
-    videoCount: number
-    cutBy: string | null
     youtubeVideos: YoutubeVideo[]
 }
 
@@ -22,5 +20,3 @@ export type YoutubeVideo = {
     published: string;
     link: string;
 }
-
-export type YoutubeAccounts = YoutubeAccount[]
