@@ -1,22 +1,33 @@
 export type Customer = {
-    name: string
-    url: string
-    logo: string
-    summary: string
-}
-export type Customers = Customer[]
+  name: string;
+  url: string;
+  logo: string;
+  summary: string;
+  socials: SocialLink[];
+};
+
+export type SocialLink = {
+  link: string;
+  icon: string;
+};
+
+export type Customers = Customer[];
 
 export type YoutubePlaylist = {
-    id: string
-    youtubeVideos: YoutubeVideo[]
-}
+  id: string;
+  youtubeVideos: YoutubeVideo[];
+};
 
 export type YoutubeVideo = {
-    channelId: string;
-    channelTitle: string;
-    thumbnail?: string;
-    videoId: string;
-    title: string;
-    published: string;
-    link: string;
-}
+  id: string;
+  thumbnail?: string;
+  title: string;
+  published: string;
+  link: string;
+  channel: YoutubeChannel;
+};
+
+export type YoutubeChannel = {
+  id: string;
+  title: string;
+};

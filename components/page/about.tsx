@@ -1,10 +1,12 @@
 "use client";
 import { motion } from "framer-motion";
+import { Button } from "../ui/button";
+import { Mail } from "lucide-react";
 
-export default function About() {
+export function About() {
   return (
     <section
-      className="py-24 px-4 md:px-16 bg-gradient-to-br from-[#181c23] to-[#23272f] min-h-[50vh] relative"
+      className="py-24 px-4 md:px-16 bg-linear-to-br from-[#181c23] to-[#23272f] min-h-[50vh] relative"
       id="about"
     >
       <motion.div
@@ -36,6 +38,20 @@ export default function About() {
           </span>
         </p>
       </motion.div>
+      <div className="mt-10 flex justify-center">
+        <motion.div
+          initial={{ scale: 0.9, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+        >
+          <Button
+            className="cursor-pointer flex items-center gap-2 px-7 py-3 rounded-full font-bold text-lg bg-cyan-500/80 hover:bg-cyan-400 shadow-[0_0_18px_2px_rgba(34,211,238,0.25)] transition-all duration-200 border-b-4 border-cyan-400/70 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+            onClick={() => (window.location.href = "mailto:dan@pushfwd.de")}
+          >
+            <Mail width={22} height={22} className="mr-1" /> Contact me
+          </Button>
+        </motion.div>
+      </div>
     </section>
   );
 }
