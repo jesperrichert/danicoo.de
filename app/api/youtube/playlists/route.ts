@@ -28,13 +28,15 @@ export async function GET(req: NextRequest) {
     const videoId = item.id?.split(":").pop() ?? "";
 
     return {
-      channelId: account.id,
-      channelTitle: item.author?.name || "",
-      videoId,
+      id: videoId,
       thumbnail: `https://img.youtube.com/vi/${videoId}/0.jpg`,
       title: item.title || "",
       published: item.published || "",
       link: `https://www.youtube.com/watch?v=${videoId}`,
+      channel: {
+        id: account.id,
+        title: item.author?.name || "",
+      },
     } satisfies YoutubeVideo;
   }) as YoutubeVideo[];
 
