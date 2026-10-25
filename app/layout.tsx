@@ -41,6 +41,11 @@ export default function RootLayout({
             <br />
             Made with ♥️ by{" "}
             <Link href="https://jespersen.zip">jespersen.zip</Link>
+            <span className="flex flex-col">
+              <a href="https://doc.jespersen.zip/s/danicoo-imprint-notice">
+                Impressum
+              </a>
+            </span>
           </footer>
         </TooltipProvider>
       </body>
