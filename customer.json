@@ -3,24 +3,97 @@
     "name": "@windowsarea",
     "url": "https://www.youtube.com/@windowsarea",
     "logo": "https://yt3.googleusercontent.com/R_vsJ8Lxd8RSynZXJUnpHz_5-w4V4h-aHt3RegKsXiaYgo1I4nPbBht02JBVfa6gqH_uVstbNQ=s160-c-k-c0x00ffffff-no-rj",
-    "summary": "Albert und Armin erstellen regelmäßig Videos zu vielerlei Themen der Technik-Welt. Hier erfahrt ihr zuerst über Neuerungen in Windows 11, aber auch was man beim Kauf von Notebooks und Computern beachten sollte."
+    "summary": "Albert und Armin erstellen regelmäßig Videos zu vielerlei Themen der Technik-Welt. Hier erfahrt ihr zuerst über Neuerungen in Windows 11, aber auch was man beim Kauf von Notebooks und Computern beachten sollte.",
+    "socials": [
+      {
+        "link": "https://www.instagram.com/windowsarea/",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.youtube.com/@windowsarea",
+        "icon": "youtube"
+      }
+    ]
   },
   {
     "name": "@letsurbex",
     "url": "https://www.youtube.com/@letsurbex",
     "logo": "https://yt3.googleusercontent.com/Q1Y_Oo4yA3X-Qk5IDy0q8PwKXNcxwi7HaTA0i-AWaQZOKbYDfG4ZuWLF9aIByWc3SgodKrUGag=s160-c-k-c0x00ffffff-no-rj",
-    "summary": "#dercaddyrollt ins Abenteuer! \nMoin, ich bin Stefan, Baujahr 1980 und komme aus dem schönen Norden. Ich liebe Abenteuer und das Erkunden längst vergessener Orte – die geheimnisvollen Lost Places. Doch nicht nur draußen bin ich unterwegs – auch in meiner Werkstatt wird geschraubt, gebastelt und getüftelt. Egal ob neue Projekte, Eigenbauten oder kreative Ideen"
+    "summary": "#dercaddyrollt ins Abenteuer! \nMoin, ich bin Stefan, Baujahr 1980 und komme aus dem schönen Norden. Ich liebe Abenteuer und das Erkunden längst vergessener Orte – die geheimnisvollen Lost Places. Doch nicht nur draußen bin ich unterwegs – auch in meiner Werkstatt wird geschraubt, gebastelt und getüftelt. Egal ob neue Projekte, Eigenbauten oder kreative Ideen",
+    "socials": [
+      {
+        "link": "https://www.instagram.com/letsurbex/",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.youtube.com/@letsurbex",
+        "icon": "youtube"
+      },
+      {
+        "link": "https://www.youtube.com/@chaosstefantüftelwerkstatt",
+        "icon": "youtube"
+      },
+      {
+        "link": "https://www.twitch.tv/letsurbextv",
+        "icon": "twitch"
+      }
+    ]
   },
   {
     "name": "@luisortner_",
     "url": "https://www.youtube.com/@luisortner_",
     "logo": "https://yt3.googleusercontent.com/bRwJa4TiDHoRXNWjv6FE-146Qsz45r6ZP-WulvtJ_3cb3kgMkmXafDZ1VqYw0Zqh3q6sxuHf=s160-c-k-c0x00ffffff-no-rj",
-    "summary": "I make $15k+/month with UGC RETAINERS no fluff no bs💆🏽‍♂️"
+    "summary": "I make $15k+/month with UGC RETAINERS no fluff no bs💆🏽‍♂️",
+    "socials": [
+      {
+        "link": "https://www.instagram.com/luischnell",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.youtube.com/@luisortner_",
+        "icon": "youtube"
+      }
+    ]
   },
   {
     "name": "@riftzone",
     "url": "https://www.youtube.com/@riftzone",
     "logo": "https://yt3.googleusercontent.com/vGXOik7zliWsQ-AXFE6MyIR-mW7R1ls4_mAwksIerl8x-Ts8depJymysnd_JyAe3ajyKbCCk7zo=s160-c-k-c0x00ffffff-no-rj",
-    "summary": "Riftzone ist ein YouTube-Kanal, der comedi und ome.tv videos produziert"
+    "summary": "Riftzone ist ein YouTube-Kanal, der comedi und ome.tv videos produziert",
+    "socials": [
+      {
+        "link": "https://www.instagram.com/riftzonee/",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.youtube.com/@MehrRiftzonee",
+        "icon": "youtube"
+      },
+      {
+        "link": "https://www.youtube.com/@riftzone",
+        "icon": "youtube"
+      },
+      {
+        "link": "https://www.twitch.tv/riftzone",
+        "icon": "twitch"
+      }
+    ]
+  }
+  },
+  {
+    "name": "@edschilive",
+    "url": "https://www.youtube.com/@edschilive",
+    "logo": "https://yt3.googleusercontent.com/6z-ik17RzNqkgZrirJQRrfUV5OmqnxuvmCr3J-zJb2yzAY6G84bKpwHSM1Zt2kevBH6QjszkL08=s160-c-k-c0x00ffffff-no-rj",
+    "summary": "Streamhighlights hochqualitativ von Edschi",
+    "socials": [
+      {
+        "link": "https://www.instagram.com/edschiii/",
+        "icon": "instagram"
+      },
+      {
+        "link": "https://www.twitch.tv/edschiii",
+        "icon": "twitch"
+      }
+    ]
   }
 ]
